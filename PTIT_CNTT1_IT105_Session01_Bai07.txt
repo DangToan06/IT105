@@ -1,0 +1,26 @@
+1. Planning:
+Xác định mục tiêu xây dựng hệ thống đăng ký tiêm chủng online giúp người dân dễ dàng đăng ký và trung tâm quản lý hiệu quả. Lập kế hoạch về phạm vi, nhân sự, thời gian, chi phí và công nghệ (web + database).
+
+2. Requirement Analysis:
+Thu thập yêu cầu từ trung tâm y tế và người dân.
+
+Người dân: đăng ký tiêm, xem lịch hẹn, tra cứu kết quả.
+
+Trung tâm: xác nhận đăng ký, sắp lịch, theo dõi tình trạng tiêm.
+Phân tích quy trình nghiệp vụ, luồng dữ liệu và xác định yêu cầu chức năng, phi chức năng (bảo mật, tốc độ, tính chính xác).
+
+3. System Design:
+Thiết kế kiến trúc hệ thống gồm giao diện người dùng, cơ sở dữ liệu (người dân, lịch tiêm, trạng thái tiêm), và các module xử lý.
+Xây dựng sơ đồ UML như Use Case, Class, Sequence, và ERD.
+
+4. Implementation:
+Lập trình các chức năng: đăng ký tiêm, xác nhận và xếp lịch, cập nhật trạng thái tiêm, tra cứu thông tin.
+Tạo giao diện web cho người dân và trang quản lý cho trung tâm y tế.
+
+5. Testing:
+Kiểm thử từng module và toàn hệ thống để phát hiện lỗi.
+Thực hiện các loại test: unit test, integration test, user acceptance test để đảm bảo hệ thống hoạt động chính xác.
+
+6. Deployment & Maintenance:
+Triển khai hệ thống thực tế cho người dân và trung tâm sử dụng.
+Theo dõi, khắc phục sự cố, cập nhật tính năng mới (ví dụ: gửi thông báo lịch tiêm qua email/SMS).

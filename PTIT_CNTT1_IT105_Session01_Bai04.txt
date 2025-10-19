@@ -1,0 +1,11 @@
+Planning: Xác định mục tiêu ứng dụng (quản lý điểm danh nhanh, chính xác), phạm vi, nguồn lực và lập kế hoạch thực hiện.
+
+Analysis: Thu thập yêu cầu từ giảng viên và sinh viên, phân tích chức năng cần có như đăng nhập, điểm danh, báo cáo chuyên cần.
+
+Design: Thiết kế giao diện người dùng, cơ sở dữ liệu (bảng sinh viên, lớp học, buổi học, điểm danh) và luồng xử lý hệ thống.
+
+Implementation: Lập trình các chức năng như đăng nhập, quét mã QR điểm danh, thống kê chuyên cần.
+
+Testing: Kiểm thử từng chức năng để phát hiện và sửa lỗi, đảm bảo ứng dụng hoạt động đúng yêu cầu.
+
+Deployment & Maintenance: Triển khai ứng dụng cho người dùng trong trường, theo dõi hoạt động và cập nhật, sửa lỗi khi cần.

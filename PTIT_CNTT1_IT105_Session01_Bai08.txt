@@ -1,0 +1,22 @@
+1. Tác nhân chính và chức năng tương ứng:
+
+Học viên: đăng ký tài khoản, tham gia khóa học, xem bài học, làm bài kiểm tra, xem điểm.
+
+Giảng viên: tạo và quản lý khóa học, cập nhật nội dung bài học, nhập điểm học viên.
+
+Admin: quản lý người dùng, phân quyền, xem báo cáo và thống kê hệ thống.
+
+2. Phân loại hệ thống thông tin:
+→ Hệ thống TPS (Transaction Processing System) cho các hoạt động hằng ngày như đăng ký, học, chấm điểm.
+→ Hệ thống MIS (Management Information System) để tổng hợp và báo cáo số liệu cho Admin.
+
+3. Mô hình phát triển phần mềm phù hợp:
+→ Agile – vì hệ thống có nhiều chức năng, cần thử nghiệm với người dùng (học viên, giảng viên), dễ thay đổi và mở rộng trong tương lai. Phát triển theo vòng lặp giúp cải thiện giao diện và trải nghiệm liên tục.
+
+4. Ba sơ đồ UML sẽ sử dụng:
+
+Use Case Diagram: mô tả các chức năng chính và mối quan hệ giữa tác nhân với hệ thống.
+
+Class Diagram: thiết kế các lớp như Học viên, Giảng viên, Khóa học, Bài học, Điểm.
+
+Sequence Diagram: mô tả trình tự tương tác giữa người dùng và hệ thống trong các quy trình như “học viên đăng ký khóa học” hoặc “giảng viên nhập điểm”.

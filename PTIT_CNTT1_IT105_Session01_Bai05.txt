@@ -1,0 +1,23 @@
+Planning:
+Xác định mục tiêu xây dựng hệ thống điểm danh tự động bằng QR để giảm gian lận và tiết kiệm thời gian. Lập kế hoạch nhân sự (developer, tester, quản lý dự án), thời gian, chi phí và công nghệ (mobile app + server).
+
+Requirement Analysis:
+Thu thập yêu cầu từ giảng viên, sinh viên, phòng đào tạo.
+
+Giảng viên: tạo buổi học, hiển thị mã QR để sinh viên quét.
+
+Sinh viên: đăng nhập, quét mã QR để điểm danh.
+
+Phòng đào tạo: xem báo cáo, thống kê chuyên cần.
+Phân tích các luồng chức năng và dữ liệu cần thiết (danh sách sinh viên, lớp học, buổi học, trạng thái điểm danh).
+
+System Design:
+Thiết kế kiến trúc hệ thống gồm ứng dụng mobile (cho sinh viên, giảng viên) và web quản trị (phòng đào tạo).
+
+CSDL: bảng người dùng, lớp học, buổi học, điểm danh.
+
+Giao diện: màn hình đăng nhập, tạo buổi học, quét mã QR, thống kê.
+
+Sơ đồ UML phù hợp:
+
+Use Case Diagram để mô tả mối quan hệ giữa giảng viên, sinh viên, phòng đào tạo với các chức năng chính của hệ thống.

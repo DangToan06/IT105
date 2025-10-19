@@ -1,0 +1,5 @@
+Giao dịch bán hàng → Hệ thống xử lý giao dịch (TPS): dùng để ghi nhận, xử lý và lưu trữ các giao dịch hằng ngày như bán hàng, thanh toán, tồn kho.
+
+Phân tích xu hướng kinh doanh → Hệ thống hỗ trợ ra quyết định (DSS): giúp phân tích dữ liệu, dự đoán xu hướng để hỗ trợ nhà quản lý đưa ra quyết định.
+
+Bảng tổng quan hiệu suất hàng tháng cho CEO → Hệ thống thông tin điều hành (EIS): cung cấp báo cáo, biểu đồ tổng hợp ở mức cao giúp CEO theo dõi hiệu suất và tình hình hoạt động của doanh nghiệp.

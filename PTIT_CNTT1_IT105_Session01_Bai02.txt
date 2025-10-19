@@ -1,0 +1,5 @@
+Dự án A: Chọn Waterfall vì yêu cầu rõ ràng, ít thay đổi, dễ triển khai tuần tự theo từng giai đoạn.
+
+Dự án B: Chọn Agile vì yêu cầu linh hoạt, cần phản hồi người dùng và thay đổi thường xuyên.
+
+Dự án C: Chọn Spiral vì hệ thống phức tạp, yêu cầu bảo mật cao, cần phân tích rủi ro và phát triển lặp.
