@@ -1,0 +1,12 @@
+### Phân tích Stakeholder cho Hệ thống "Giao hàng nhanh"
+
+Bảng này xác định vai trò, mối quanâm chính và mức độ ảnh hưởng của từng nhóm đối với sự thành công của hệ thống.
+
+| Stakeholder | Vai trò | Mối quan tâm | Mức độ ưu tiên |
+| :--- | :--- | :--- | :--- |
+| **1. Khách hàng (Người gửi)** | Người sử dụng dịch vụ để gửi hàng hóa đến người nhận. | • **Tốc độ:** Giao hàng nhanh đúng cam kết.<br>• **Chi phí:** Giá cước cạnh tranh.<br>• **Theo dõi:** Dễ dàng theo dõi hành trình đơn hàng (real-time).<br>• **An toàn:** Hàng hóa không bị hư hỏng, mất mát. | **Critical** |
+| **2. Tài xế giao hàng (Shipper)** | Người trực tiếp nhận và vận chuyển hàng hóa từ người gửi đến người nhận. | • **Thu nhập:** Phí ship và thưởng rõ ràng, công bằng.<br>• **Hiệu quả:** Ứng dụng cung cấp lộ trình tối ưu.<br>• **Hỗ trợ:** Hệ thống hỗ trợ khi gặp sự cố (liên lạc với khách, điều phối).<br>• **Linh hoạt:** Thời gian làm việc linh hoạt. | **Critical** |
+| **3. Ban Giám đốc / Chủ đầu tư** | Cung cấp tài chính, định hướng chiến lược và ra quyết định cuối cùng. | • **Lợi nhuận:** Tối ưu chi phí vận hành, tăng doanh thu.<br>• **Tăng trưởng:** Mở rộng thị phần, thu hút người dùng mới.<br>• **Hiệu quả:** Hệ thống hoạt động ổn định, tự động hóa cao.<br>• **Báo cáo:** Dữ liệu chính xác để phân tích kinh doanh. | **Critical** |
+| **4. Nhân viên vận hành / Điều phối** | Quản lý đơn hàng, phân công tài xế, và giải quyết các vấn đề phát sinh hàng ngày. | • **Hiệu suất:** Giao diện quản lý trực quan, dễ dàng điều phối.<br>• **Giám sát:** Theo dõi được vị trí tài xế và trạng thái đơn hàng.<br>• **Công cụ:** Có công cụ để xử lý sự cố nhanh chóng.<br>• **Tự động hóa:** Hệ thống tự động phân đơn thông minh. | **Major** |
+| **5. Người nhận hàng** | Điểm cuối của quy trình, người trực tiếp nhận sản phẩm. | • **Thông tin:** Biết được thời gian giao hàng dự kiến chính xác.<br>• **Liên lạc:** Dễ dàng liên hệ với shipper khi cần.<br>• **Linh hoạt:** Có thể hẹn lại lịch giao nếu bận.<br>• **An toàn:** Nhận đúng hàng, nguyên vẹn. | **Major** |
+| **6. Đối tác / Cửa hàng (Shop Online)** | Các doanh nghiệp sử dụng dịch vụ giao hàng làm phương thức vận chuyển chính. | • **Tích hợp:** Dễ dàng kết nối (API) hệ thống của shop với hệ thống giao hàng.<br>• **Đối soát:** Quy trình đối soát COD (thu hộ) nhanh chóng, minh bạch.<br>• **Chi phí:** Chính sách giá tốt cho đối tác thường xuyên.<br>• **Tỷ lệ thành công:** Tỷ lệ giao hàng thành công cao. | **Major** |
