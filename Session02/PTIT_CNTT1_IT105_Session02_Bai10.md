@@ -53,7 +53,7 @@ Xác định đúng các bên liên quan và mối quan tâm của họ là chì
 
 ---
 
-#### **5. Gợi ý Yêu cầu Hệ thống (Mẫu)**
+#### **5. Gợi ý Yêu cầu Hệ thống**
 
 Dựa trên phân tích ban đầu, hệ thống cần có các yêu cầu sau:
 
