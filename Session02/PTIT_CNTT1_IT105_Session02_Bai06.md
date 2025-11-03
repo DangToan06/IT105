@@ -26,10 +26,42 @@
 
 ## 3. Phần mềm
 
-- Các loại phần mềm: Hệ điều hành tại các máy trạm (thường là Windows), hệ quản trị cơ sở dữ liệu (ví dụ: SQL Server, Oracle), trình duyệt web.
+- **Các loại phần mềm**: Hệ điều hành tại các máy trạm (thường là Windows), hệ quản trị cơ sở dữ liệu (ví dụ: SQL Server, Oracle), trình duyệt web.
 
-Tác động đến yêu cầu:
+- **Tác động đến yêu cầu**:
 
-Tương thích nền tảng: Ứng dụng phải hoạt động ổn định trên hệ điều hành và trình duyệt tiêu chuẩn của bệnh viện.
+    - **Tương thích nền tảng**: Ứng dụng phải hoạt động ổn định trên hệ điều hành và trình duyệt tiêu chuẩn của bệnh viện.
 
-Yêu cầu về cơ sở dữ liệu: CSDL phải có khả năng mở rộng (scalability) để xử lý lượng dữ liệu bệnh nhân tăng lên theo thời gian và phải có cơ chế sao lưu, phục hồi (backup & recovery) tin cậy để tránh mất mát dữ liệu y tế quan trọng.
+    - **Yêu cầu về cơ sở dữ liệu**: CSDL phải có khả năng mở rộng (scalability) để xử lý lượng dữ liệu bệnh nhân tăng lên theo thời gian và phải có cơ chế sao lưu, phục hồi (backup & recovery) tin cậy để tránh mất mát dữ liệu y tế quan trọng.
+
+## 4. Hệ thống bên ngoài
+
+- **Các hệ thống cần kết nối**: Hệ thống của Bảo hiểm Y tế Quốc gia, Cổng dữ liệu của Bộ Y tế, các phòng khám hoặc bệnh viện khác (để chuyển tuyến), hệ thống của các phòng xét nghiệm bên ngoài, các cổng thanh toán không dùng tiền mặt.
+
+- **Tác động đến yêu cầu**:
+
+    - **Giao diện lập trình ứng dụng (API)**: Hệ thống bắt buộc phải có các API an toàn để trao đổi dữ liệu với các bên thứ ba. Ví dụ, API để gửi yêu cầu thanh toán và nhận kết quả từ cơ quan Bảo hiểm Y tế, hoặc API để gửi báo cáo định kỳ cho Bộ Y tế.
+
+    - **Tiêu chuẩn dữ liệu**: Dữ liệu trao đổi phải tuân theo các định dạng và tiêu chuẩn do cơ quan quản lý nhà nước hoặc đối tác quy định để đảm bảo tính liên thông.
+
+## 5. Quy trình nghiệp vụ
+
+- **Các quy trình chính**: Quy trình đăng ký khám bệnh, quy trình khám và chẩn đoán, quy trình cấp phát thuốc, quy trình thanh toán và xuất viện, quy trình yêu cầu và trả kết quả xét nghiệm.
+
+- **Tác động đến yêu cầu**:
+
+    - **Luồng công việc**: Các yêu cầu chức năng của hệ thống phải được thiết kế để mô phỏng và tự động hóa các quy trình này. Ví dụ, khi bác sĩ tạo một y lệnh xét nghiệm trên hệ thống, yêu cầu này phải tự động được chuyển đến module của phòng xét nghiệm.
+
+    - **Tích hợp module**: Các module chức năng không thể hoạt động riêng lẻ mà phải liên kết chặt chẽ với nhau để tạo thành một chu trình khép kín, từ lúc bệnh nhân vào viện đến lúc ra viện.
+
+## 6. Luật lệ
+
+- **Các quy định pháp lý**: Luật Khám bệnh, chữa bệnh; quy định của Bộ Y tế về việc triển khai bệnh án điện tử; Luật An ninh mạng; và đặc biệt là các quy định về bảo mật thông tin và quyền riêng tư của bệnh nhân.
+
+- **Tác động đến yêu cầu**:
+
+    - **Bảo mật**: Đây là yêu cầu phi chức năng quan trọng nhất. Hệ thống phải mã hóa dữ liệu nhạy cảm của bệnh nhân (cả khi lưu trữ và khi truyền đi).
+
+    - **Nhật ký truy cập**: Hệ thống phải ghi lại mọi hành động truy cập, xem, sửa, xóa dữ liệu bệnh án, bao gồm thông tin về ai, lúc nào, và đã làm gì. Đây là yêu cầu bắt buộc để tuân thủ pháp luật và truy vết khi có sự cố.
+
+    - **Lưu trữ dữ liệu**: Hệ thống phải tuân thủ các quy định về thời gian lưu trữ hồ sơ bệnh án theo yêu cầu của pháp luật.
